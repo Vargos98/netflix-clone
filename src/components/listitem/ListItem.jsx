@@ -23,10 +23,10 @@ export default function ListItem({index}) {
      
       <div className="itemInfo">
           <div className="icons">
-            <PlayArrow />
-            <Add />
-            <ThumbUpAltOutlined /> 
-            <ThumbDownAltOutlined />
+            <PlayArrow className='icon'/>
+            <Add className='icon'/>
+            <ThumbUpAltOutlined className='icon'/> 
+            <ThumbDownAltOutlined className='icon'/>
           </div>
           <div className="itemInfoTop">
               <span>1hour 14 mins</span>
