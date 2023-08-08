@@ -8,9 +8,8 @@ export default function Login() {
           <img
             className="logo"
             src="https://www.freepnglogos.com/uploads/netflix-logo-0.png"
-            alt=""
-          />
-        </div>
+           alt="logo"/>
+       </div>
       </div>
       <div className="container">
         <form>
