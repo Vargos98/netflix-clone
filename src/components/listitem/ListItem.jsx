@@ -7,7 +7,7 @@ import {
   ThumbDownAltOutlined } from "@material-ui/icons"
 export default function ListItem({index}) {
   const [isHovered, setIsHovered] = useState(false);
-  const trailer = "./trailer.mp4";  
+  const trailer = "https://player.vimeo.com/external/426190600.sd.mp4?s=0dec29118761c72ec945e6bb60d7d7908760948b&profile_id=164&oauth2_token_id=57447761";  
   return (
     <div className='listItem'
     // hover calculations
